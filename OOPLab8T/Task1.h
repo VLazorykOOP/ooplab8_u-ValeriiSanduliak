@@ -46,7 +46,7 @@ void Task1() {
 	std::cout << "Test specification tameplate <char*>" << std::endl;
 	std::cout << "[";
 	char* array[] = { (char*)"boo",(char*)"foo",(char*)"foo",(char*)"boo",(char*)"foo" };
-	for (int i = 0; i < sizeof(array) / sizeof(char*); i++) {
+	for (int i = 0; i < sizeof(array) / sizeof(array[0]); i++) {
 		std::cout << " " << array[i];
 	}
 	std::cout << " ]" << std::endl;
