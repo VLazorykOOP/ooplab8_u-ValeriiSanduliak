@@ -4,6 +4,7 @@
 #include <iostream>
 #include"Task1.h"
 #include"Task2.h"
+#include"Task3.h"
 int main()
 {
     int r;       
@@ -19,7 +20,7 @@ int main()
         switch (ch) {
         case '1': Task1();  break;
         case '2': Task2();  break;
-      //case '3': Task3();  break;
+        case '3': Task3();  break;
         case '4': return 0;
         }
         std::cout << " Press any key and enter\n";

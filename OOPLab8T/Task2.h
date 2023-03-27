@@ -1,6 +1,5 @@
 #pragma once
 #include<iostream>
-#include<algorithm>
 template<typename T>
 int binarySearch(T arr[],size_t n,T x) {
 	int left = 0;
