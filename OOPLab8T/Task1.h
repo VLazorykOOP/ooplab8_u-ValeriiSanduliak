@@ -52,4 +52,5 @@ void Task1() {
 	std::cout << " ]" << std::endl;
 	char* ptr = searchMinCount<char*>(array, 5);
 	std::cout << "---------------------" << std::endl;
+	std::cout << "End test!!!" << std::endl;
 }

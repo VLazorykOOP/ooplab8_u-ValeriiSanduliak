@@ -156,21 +156,27 @@ void Task3()
 	std::cout << "-------------------------" << std::endl;
 	std::cout << "Test template class Matrix:" << std::endl;
 	std::cout << "-------------------------" << std::endl;
-	std::cout << "Matrix<int>:"<<std::endl<<std::endl;
+	std::cout << "Matrix<int>:"<<std::endl;
 	Matrix<int> intMatrix(2,3);
+	std::cout << "---------------------" << std::endl;
 	std::cout << "Test cin,cout:" << std::endl;
 	std::cin >> intMatrix;
 	std::cout << intMatrix;
+	std::cout << "---------------------" << std::endl;
 	std::cout << "Test operator +" << std::endl;
 	Matrix<int>intMatrixd(intMatrix);
 	intMatrixd = intMatrixd + intMatrix;
 	std::cout << intMatrixd;
+	std::cout << "---------------------" << std::endl;
 	std::cout << "Test operator +=" << std::endl;
 	Matrix<int>intMatrixdd(intMatrixd);
 	intMatrixdd += intMatrix;
 	std::cout << intMatrixdd;
+	std::cout << "---------------------" << std::endl;
 	std::cout << "Test operator =" << std::endl;
 	Matrix<int>intMe;
 	intMe = intMatrix;
 	std::cout << intMe;
+	std::cout << "---------------------" << std::endl;
+	std::cout << "End test!!!" << std::endl;
 }

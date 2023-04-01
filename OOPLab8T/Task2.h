@@ -134,4 +134,5 @@ void Task2()
 		std::cout << std::endl << "Element [ " << x2 << " ] was found at position : " << charIndex2 << "\n";
 	}
 	std::cout << "---------------------" << std::endl;
+	std::cout << "End test!!!" << std::endl;
 }
